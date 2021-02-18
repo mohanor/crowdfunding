@@ -1,0 +1,179 @@
+@media (min-width: 600px) {
+
+}
+
+@media (min-width: 768px) {
+    .main {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+    .model-div {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header {
+        background-image: url(../media/image-hero-desktop.jpg);
+        padding: 20px 50px;
+        height: 380px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .text-p {
+        font-size: 18px;
+    }
+
+    .back {
+        height: 50px;
+        width: 180px;
+        font-size: 16px;
+    }
+
+    .bookmark-btn {
+        font-family: 'Commissioner', sans-serif;
+        font-weight: 500;
+        position: relative;
+        background: hsl(0, 0%, 90%);
+        height: 50px;
+        width: 200px;
+        border-radius: 30px;
+
+    }
+
+    .bookmark-btn:hover  .bookmark-img {
+        left: 0px;
+    }
+
+    .bookmark-btn img {
+        height: 50px;
+        position: absolute;
+        left: -10px;
+        top: 0;
+        transition: left .3s;
+    }
+    
+    .about-project {
+        padding: 50px 40px;
+    }
+
+    .about-project h3 {
+        font-size: 25px;
+    }
+
+    .about-project p {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+    
+    .box-btn {
+        margin-top: 0;
+    }
+
+    .flx {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .line::after {
+        content: '';
+        height: 74%;
+        width: 1px;
+    }
+
+    .dflex {
+        display: flex;
+    }
+
+    .hambur {
+       display: none;
+    }
+
+    .des-list {
+        list-style-type: none;
+        display: flex;
+    }
+    
+    .des-list .des-item {
+        padding-left: 40px;
+    }
+
+    .des-list .des-item .des-link {
+        text-decoration: none;
+        color: white;
+    }
+
+    .about-project span {
+        line-height: 3.2;
+    }
+
+    .back:hover {
+        background-color: hsl(176, 72%, 28%);
+    }
+
+    .box-btn-h:hover {
+        background-color:hsl(176, 72%, 28%);
+    }
+
+   .bookmark-span {
+       display: inline;
+        color: hsl(176, 72%, 28%);
+   }
+
+   .dflex {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .m{
+        margin-top: 15px;
+        padding-right: 15px;
+    }
+
+    .clr{
+        display: inline;
+    }
+
+    .continue {
+        height: 45px;
+    }
+
+    .linehe {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #gotit:hover {
+        background-color:hsl(176, 72%, 28%);
+    }
+
+    .thanks > div {
+        top: 50%;
+        width: 490px;
+    }
+
+    .about-project span {
+        padding-left: 7px;
+    }
+
+    .porl::after{
+        right: 50px;
+    }
+
+    .lheight {
+        padding: 0; 
+    }
+
+    .section_2 .row {
+        text-align: left;
+    }
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+    
+}
